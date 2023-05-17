@@ -24,8 +24,7 @@ const Tetris = () => {
     console.log('re-render');
 
     const movePlayer = dir => {
-
-
+        updatePlayerPos({ x: dir, y: 0 });
     }
 
     const startGame = () => {
